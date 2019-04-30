@@ -1,4 +1,5 @@
 Django==2.2
+django-translated-fields==0.7.3
 psycopg2==2.8.2
 pytz==2019.1
 sqlparse==0.3.0
