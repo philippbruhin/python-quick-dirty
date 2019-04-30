@@ -5,10 +5,10 @@ from translated_fields import TranslatedField
 
 class Question(models.Model):
     question = TranslatedField(
-        models.CharField(_("question"), max_length=200),
+        models.CharField(_("question"), verbose_name="Question Verbose Name", max_length=200),
     )
     answer = TranslatedField(
-        models.CharField(_("answer"), max_length=200),
+        models.CharField(_("answer"), verbose_name="Answer Verbose Name", max_length=200),
     )
 
     def __str__(self):
